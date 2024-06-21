@@ -4,22 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/" alt="" width="">
+  <a href="https://github.com/Marielle05/">
+    <img src="./assets/img/logo1.png" alt="" width="">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 3</h3>
+  <h3 align="center">Seatwork 3 : Header & Footer</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ This is to demonstrate skills in HTML and CSS with multiple pages, effects, and container manipulations, along with different versions of headers and footers.
 </div>
 
 <br />
-
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=Marielle05/WD-S3)
 
 ---
@@ -27,7 +21,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,28 +48,24 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
 <!-- The following are just sample -->
 Description of the project in details.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project and the purpose
+- The task is to create multiple unique and distinctive designs for headers and footers on a website, including both static and animated versions. The objective is to provide visually appealing and functional elements that enhance user experience and reinforce brand identity. These designs should cater to various preferences and styles, offering users a range of options to choose from.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Hover Effect
+- Fade-in Effect
+- Before Effect
+- Not Effect
+
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -113,8 +102,10 @@ WD-ProjectName
 ```
 
 ## Resources
-
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Seatwork 3 | took ideas from the landing page | https://github.com/zyx-0314/WD-Seatwork-3|
+|How To Create A Website using HTML & CSS | took some ideas from the header used |-|https://youtu.be/CQZxeoQeo5c?si=mu0yGoRdXrfgUAev|
+|How to Create A Navigation Bar using HTML and CSS | Coding Ninja|took some ideas |https://youtu.be/-Yw9gBHE60E?si=uGOUbvmil9LDbmKf|
+|Responsive Footer Design using Html & Css|took some ideas|https://youtu.be/YOb67OKw62s?si=qJlb4n58p8bh93PI
+|
