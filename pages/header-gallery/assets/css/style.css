@@ -23,7 +23,7 @@
   }
   
   .design-one {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     border: 1px solid lightskyblue;
@@ -329,7 +329,7 @@ main {
 }
 
 .cta-button:active {
-    background-color: yellow;
+    background-color: white;
     color: yellow;
 }
 

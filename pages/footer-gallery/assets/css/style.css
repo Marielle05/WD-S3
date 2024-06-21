@@ -1,0 +1,483 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Dev */
+section.design-one,
+section.design-one * {
+    /* outline: 1px dashed black; */
+}
+
+/* Dep */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+section {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+
+.footer-style-1 {
+    background-color: white;
+    color: lightskyblue;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid 1px lightskyblue;
+  }
+  
+  .footer-style-1 .footer-content p {
+    margin: 0;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  
+  .s {
+    font-size: 24px; /* Adjust the size of the icons if necessary */
+    margin-right: 10px; /* Adds space to the right of each icon */
+}
+
+
+
+/* design 2 */
+
+.footer-style-2 {
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-style-2 .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-style-2 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+/* design 3 */
+
+.footer-style-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffc0d3;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 37%;
+}
+
+.footer-style-3 img {
+    flex: 1;
+}
+
+.contact-info {
+    flex: 0;
+}
+
+.footer-container3 p {
+    flex: 1;
+    text-align: center;
+    padding-left: 20%;
+}
+
+
+
+/* design 4 */
+
+
+.footer-style-4 {
+    background-color: #2980b9;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-style-4 .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-style-4 .newsletter-signup {
+    margin-bottom: 10px;
+}
+
+.footer-style-4 .newsletter-signup input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.footer-style-4 .newsletter-signup button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ecf0f1;
+    color: #2980b9;
+    cursor: pointer;
+}
+
+.footer-style-4 .newsletter-signup button:hover {
+    background-color: #ffffff;
+}
+
+/* design 5*/
+
+.footer-style-4 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-style-5 {
+    background: linear-gradient(90deg, #ff49a4, #fe7ba9);
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-style-5 .footer-container5 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-style-5 .footer-column5 {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+
+.footer-style-5 .footer-column5 h4 {
+    margin-bottom: 10px;
+}
+
+.footer-style-5 .footer-column5 p {
+    margin: 0;
+}
+
+.footer-style-5 p {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* animated */
+/* design 1 */
+
+.footer-style-animated {
+    background-color: white;
+    color: lightskyblue;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid 1px lightskyblue;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-style-animated:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.footer-style-animated .footer-content-animated p {
+    margin: 0;
+    font-size: 14px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer-style-animated .footer-content-animated p:hover {
+    color: white;
+}
+
+.a {
+    font-size: 24px; /* Adjust the size of the icons if necessary */
+    margin-right: 10px; /* Adds space to the right of each icon */
+    transition: color 0.3s ease;
+}
+
+.a:hover {
+    color: darkblue;
+}
+
+/* design 2 animated */
+.footer-style-animated2 {
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.footer-style-animated2 .footer-container-animated2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-style-animated2 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Animation when clicked */
+.footer-style-animated2:active {
+    transform: scale(1.05);
+    background-color: darkcyan;
+}
+
+
+/*animated design 3 */
+
+.footer-style-animated3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffc0d3;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative; /* Added for pseudo-element */
+    transition: background-color 0.3s ease; /* Added for hover effect */
+}
+
+.footer-style-animated3:hover {
+    background-color: #ff8fbf; /* Lighter pink on hover */
+}
+
+.footer-style-animated3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2); /* Transparent white overlay */
+    z-index: -1; /* Behind the content */
+    transition: opacity 0.3s ease; /* Added for before effect */
+    opacity: 0; /* Initially hidden */
+}
+
+.footer-style-animated3:hover:before {
+    opacity: 1; /* Show on hover */
+}
+
+.footer-style-animated3:active {
+    transform: scale(0.98); /* Slight scale down on active */
+    background-color: #ff5f8e; /* Darker pink on active */
+}
+
+.footer-container-animated3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-info-animated3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 37%;
+}
+
+.footer-style-animated3 img {
+    flex: 1;
+}
+
+.contact-info-animated3 {
+    flex: 0;
+}
+
+.footer-container-animated3 p {
+    flex: 1;
+    text-align: center;
+    padding-left: 20%;
+    margin: 0; /* Added to reset margin for paragraphs */
+}
+
+.footer-container-animated3 h3 {
+    margin: 0; /* Added to reset margin for heading */
+}
+
+/* design 4 */
+
+.footer-style-animated4 {
+    background-color: #2980b9;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s ease forwards; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.footer-style-animated4 .footer-container-animated4 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-style-animated4 .newsletter-signup {
+    margin-bottom: 10px;
+}
+
+.footer-style-animated4 .newsletter-signup input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-style-animated4 .newsletter-signup button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: #2980b9;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-style-animated4 .newsletter-signup button:hover {
+    background-color: yellow;
+    color: #2980b9;
+}
+
+.footer-style-animated4 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-style-4 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/*design 5*/
+
+.footer-style-animated5 {
+    background: linear-gradient(90deg, #ff49a4, #fe7ba9);
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 0.5s ease forwards; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.footer-style-animated5:hover .footer-column-animated5 {
+    transform: translateY(-5px); /* Move columns up slightly on hover */
+    transition: transform 0.3s ease;
+}
+
+.footer-style-animated5 .footer-container-animated5 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-style-animated5 .footer-column-animated5 {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-style-animated5 .footer-column-animated5 h4 {
+    margin-bottom: 10px;
+}
+
+.footer-style-animated5 .footer-column-animated5 p {
+    margin: 0;
+}
+
+.footer-style-animated5 p {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+}
