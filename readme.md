@@ -105,7 +105,7 @@ WD-ProjectName
 | Title | Purpose | Link |
 |-|-|-|
 | Seatwork 3 | took ideas from the landing page | https://github.com/zyx-0314/WD-Seatwork-3|
-|How To Create A Website using HTML & CSS | took some ideas from the header used |-|https://youtu.be/CQZxeoQeo5c?si=mu0yGoRdXrfgUAev|
-|How to Create A Navigation Bar using HTML and CSS | Coding Ninja|took some ideas |https://youtu.be/-Yw9gBHE60E?si=uGOUbvmil9LDbmKf|
+|How To Create A Website using HTML & CSS | took some ideas from the header used |https://youtu.be/CQZxeoQeo5c?si=mu0yGoRdXrfgUAev|
+|How to Create A Navigation Bar using HTML and CSS |took some ideas |https://youtu.be/-Yw9gBHE60E?si=uGOUbvmil9LDbmKf|
 |Responsive Footer Design using Html & Css|took some ideas|https://youtu.be/YOb67OKw62s?si=qJlb4n58p8bh93PI
 |
